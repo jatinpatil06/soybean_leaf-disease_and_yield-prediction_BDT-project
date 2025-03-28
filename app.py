@@ -7,7 +7,7 @@ import gdown
 
 # Load your trained model
 output = "custom_fpi.keras"
-gdown.download("https://drive.google.com/file/d/1R4mTVbREr9wL6dzeBOSpu73urCih1pA_/view?usp=sharing", output,)
+gdown.download("https://drive.google.com/file/d/1R4mTVbREr9wL6dzeBOSpu73urCih1pA_", output,)
 model = tf.keras.models.load_model(output)  # Update with your model file
 
 # Define class labels
