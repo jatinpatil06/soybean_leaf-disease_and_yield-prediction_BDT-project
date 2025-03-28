@@ -2,4 +2,5 @@ streamlit
 tensorflow
 numpy
 Pillow
+onnxruntime
 rembg
