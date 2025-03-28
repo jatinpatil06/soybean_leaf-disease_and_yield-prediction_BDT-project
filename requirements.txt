@@ -4,3 +4,4 @@ numpy
 Pillow
 onnxruntime
 rembg
+gdown
